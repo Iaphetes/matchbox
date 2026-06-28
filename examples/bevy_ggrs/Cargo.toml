@@ -20,7 +20,7 @@ bevy_ggrs = { version = "0.20", features = ["wasm-bindgen"] }
 
 [dependencies]
 bevy_matchbox = { path = "../../bevy_matchbox", features = ["ggrs"] }
-bevy = { version = "0.18", default-features = false, features = [
+bevy = { version = "0.19", default-features = false, features = [
   "bevy_winit",
   "bevy_render",
   "bevy_pbr",
