@@ -65,7 +65,7 @@ use std::{
 ///     commands.remove_resource::<MatchboxSocket>();
 /// }
 /// ```
-#[derive(Resource, Component, Debug)]
+#[derive(Resource, Debug)]
 #[allow(dead_code)] // keep the task alive so it doesn't drop before the socket
 pub struct MatchboxSocket(WebRtcSocket, Box<dyn Debug + Send + Sync>);
 
